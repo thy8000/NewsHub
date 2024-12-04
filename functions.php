@@ -5,6 +5,11 @@ if (!defined('ABSPATH')) {
 }
 
 /**
+ * Autoload
+ */
+include get_template_directory() . '/vendor/autoload.php';
+
+/**
  * Functions
  */
 require_once implode(DIRECTORY_SEPARATOR, [get_template_directory(), 'utils', 'debug.php']);
